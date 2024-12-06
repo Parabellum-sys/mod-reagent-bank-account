@@ -136,7 +136,7 @@ public:
 
     bool OnGossipHello(Player* player, Creature* creature) override
     {
-        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Deposit All Reagents", DEPOSIT_ALL_REAGENTS, 0);
+        AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, GetItemIcon(40642, 30, 30, -18, 0) + "Deposit All Reagents", DEPOSIT_ALL_REAGENTS, 0);
         AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, GetItemIcon(2589, 30, 30, -18, 0) + "Cloth", ITEM_SUBCLASS_CLOTH, 0);
         AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, GetItemIcon(12208, 30, 30, -18, 0) + "Meat", ITEM_SUBCLASS_MEAT, 0);
         AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, GetItemIcon(2772, 30, 30, -18, 0) + "Metal & Stone", ITEM_SUBCLASS_METAL_STONE, 0);
