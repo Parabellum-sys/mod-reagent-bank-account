@@ -8,16 +8,16 @@
 #
 #    ReagentBankAccount.Enable
 #        Description: Enable the reagent bank (account-wide).
-#        Default:     0 - Disabled
-#                     1 - Enabled
+#        Default:     1 - Enabled
+#                     0 - Disabled
 
 ReagentBankAccount.Enable = 1
 
 #
 #    RemoteDeposit.Enable
 #        Description: Enable the remote deposit.
-#        Default:     0 - Disabled
-#                     1 - Enabled
+#        Default:     1 - Enabled
+#                     0 - Disabled
 #
 
 RemoteDeposit.Enable = 1
