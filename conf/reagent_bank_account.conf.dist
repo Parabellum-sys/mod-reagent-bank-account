@@ -20,7 +20,7 @@ ReagentBankAccount.Enable = 1
 #                     0 - Disabled
 #
 
-RemoteDeposit.Enable = 1
+RemoteDeposit.Enable = 0
 
 #
 ###################################################################################################
